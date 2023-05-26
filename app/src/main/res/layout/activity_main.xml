@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="36dp" />
+        app:layout_constraintGuide_percent="0.049247608" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -36,12 +36,25 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="327dp"
-        android:layout_height="636dp"
+        android:layout_width="326dp"
+        android:layout_height="645dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="70dp">
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="61dp">
 
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Create A Mad Lib!" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="330dp"
+            android:layout_height="21dp"
+            android:text="Fill in the boxes below to make your Mad Lib!" />
 
         <TextView
             android:id="@+id/textView4"
@@ -52,7 +65,7 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/etFriend"
+            android:id="@+id/et_friend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -60,7 +73,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etFriendPronoun"
+            android:id="@+id/et_pronoun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -68,7 +81,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etName"
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -76,7 +89,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etYourPronoun"
+            android:id="@+id/et_pronoun2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -84,7 +97,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etBirthdate"
+            android:id="@+id/et_birthdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -92,7 +105,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etBirthYear"
+            android:id="@+id/et_birthyear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -100,7 +113,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etRandoNumber"
+            android:id="@+id/et_randomnumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -108,7 +121,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etBoolean"
+            android:id="@+id/et_boolean"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -116,7 +129,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etBoolean2"
+            android:id="@+id/et_boolean2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -124,7 +137,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/etColor"
+            android:id="@+id/et_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -132,28 +145,11 @@
             android:inputType="text" />
 
         <Button
-            android:id="@+id/btn_Compile"
+            android:id="@+id/btn_compile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Compile" />
+
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Create A Mad Lib!"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="21dp"
-        android:text="Fill in the boxes below to make your Mad Lib!"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

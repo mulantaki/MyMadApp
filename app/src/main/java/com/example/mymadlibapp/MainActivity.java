@@ -12,17 +12,17 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etFriend;
 
-    private EditText etFriendPronoun;
+    private EditText etPronoun;
 
     private EditText etName;
 
-    private EditText etYourPronoun;
+    private EditText etPronoun2;
 
     private EditText etBirthdate;
 
     private EditText etBirthYear;
 
-    private EditText etRandoNumber;
+    private EditText etRandomNumber;
 
     private EditText etBoolean;
 
@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         etFriend = findViewById(R.id.et_friend);
-        etFriendPronoun = findViewById(R.id.et_friendpronoun);
+        etPronoun = findViewById(R.id.et_pronoun);
         etName = findViewById(R.id.et_name);
-        etYourPronoun = findViewById(R.id.et_yourpronoun);
+        etPronoun2 = findViewById(R.id.et_pronoun2);
         etBirthdate = findViewById(R.id.et_birthdate);
         etBirthYear = findViewById(R.id.et_birthyear);
-        etRandoNumber = findViewById(R.id.et_randonumber);
+        etRandomNumber = findViewById(R.id.et_randomnumber);
         etBoolean = findViewById(R.id.et_boolean);
         etBoolean2 = findViewById(R.id.et_boolean2);
         etColor = findViewById(R.id.et_color);
@@ -58,9 +58,36 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String story = "";
-                story += "...";
-                story += "\nOn a "
-                story += "\n "
+                story += "Well for starters I go by, " + etName + "I enjoy playing athletic sports and my favorite one is, ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 intentDisplay.putExtra("story", story);
                 startActivity(intentDisplay);
