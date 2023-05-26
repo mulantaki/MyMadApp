@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_friend" type="id" />
+    <item name="et_friendpronoun" type="id" />
+    <item name="et_name" type="id" />
+    <item name="et_yourpronoun" type="id" />
+    <item name="et_birthdate" type="id" />
+    <item name="et_birthyear" type="id" />
+    <item name="et_randonumber" type="id" />
+    <item name="et_boolean" type="id" />
+    <item name="et_boolean2" type="id" />
+    <item name="et_color" type="id" />
+    <item name="btn_compile" type="id" />
+</resources>

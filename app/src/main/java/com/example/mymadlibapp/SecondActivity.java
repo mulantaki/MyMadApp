@@ -3,10 +3,11 @@ package com.example.mymadlibapp;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
 
-private TextView tvStory
+private TextView tvStory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +21,5 @@ private TextView tvStory
             String story = intent.getStringExtra( "story");
 
             tvStory.setText(story);
-
-
-
-
-
     }
 }

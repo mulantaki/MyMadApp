@@ -36,123 +36,124 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="325dp"
-        android:layout_height="660dp"
+        android:layout_width="327dp"
+        android:layout_height="636dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="33dp">
+        tools:layout_editor_absoluteY="70dp">
 
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Fill in the boxes below to make your Mad Lib!" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:text="My Friend & I"
+            android:text="My Friend and I"
             android:textAlignment="center"
             android:textSize="25sp" />
 
-
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etFriend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Name of Friend:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/etFriendPronoun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Friend's Pronoun:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText3"
+            android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Your Name:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/etYourPronoun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Your Pronoun:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/etBirthdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Your Birth Month and Day:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/etBirthYear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Your Birth Year:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/etRandoNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Random Number:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/etBoolean"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Enter True or False:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText9"
+            android:id="@+id/etBoolean2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Enter True or False Once More:"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText10"
+            android:id="@+id/etColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Your Favorite Color:"
             android:inputType="text" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_Compile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Compile" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Mad Lib App"
+        android:text="Create A Mad Lib!"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="330dp"
+        android:layout_height="21dp"
+        android:text="Fill in the boxes below to make your Mad Lib!"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

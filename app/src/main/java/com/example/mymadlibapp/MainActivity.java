@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         etFriend = findViewById(R.id.et_friend);
         etFriendPronoun = findViewById(R.id.et_friendpronoun);
         etName = findViewById(R.id.et_name);
-        etYourPronoun = (R.id.et_yourpronoun);
+        etYourPronoun = findViewById(R.id.et_yourpronoun);
         etBirthdate = findViewById(R.id.et_birthdate);
         etBirthYear = findViewById(R.id.et_birthyear);
         etRandoNumber = findViewById(R.id.et_randonumber);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         etColor = findViewById(R.id.et_color);
         btnCompile = findViewById(R.id.btn_compile);
 
-        Intent intentDisplay = new Intent(MainActivity.this, DisplayActivity.class);
+        Intent intentDisplay = new Intent(MainActivity.this, SecondActivity.class);
 
         btnCompile.setOnClickListener(new View.OnClickListener() {
 
