@@ -28,11 +28,11 @@
         app:layout_constraintGuide_begin="32dp" />
 
     <LinearLayout
-        android:layout_width="347dp"
-        android:layout_height="699dp"
+        android:layout_width="346dp"
+        android:layout_height="701dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="34dp">
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="32dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -49,8 +49,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="166dp"
+        android:layout_height="22dp"
         android:text="The Story of My Friend & I"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
