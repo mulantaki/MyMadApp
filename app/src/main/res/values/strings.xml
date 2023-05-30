@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My MadLib App</string>
+    <color name="white">#99fffffff</color>
 </resources>

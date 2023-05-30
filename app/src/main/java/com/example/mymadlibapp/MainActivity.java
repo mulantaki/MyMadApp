@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etColor;
 
+    private EditText etSport;
+
+    private EditText etNoun;
+
+    private EditText etVerb;
+
+    private EditText etAdjective;
+
     private Button btnCompile;
 
 
@@ -49,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
         etBoolean = findViewById(R.id.et_boolean);
         etBoolean2 = findViewById(R.id.et_boolean2);
         etColor = findViewById(R.id.et_color);
+        etSport = findViewById(R.id.et_sport);
+        etNoun = findViewById(R.id.et_noun);
+        etVerb = findViewById(R.id.et_verb);
+        etAdjective = findViewById(R.id.et_adjective);
         btnCompile = findViewById(R.id.btn_compile);
 
         Intent intentDisplay = new Intent(MainActivity.this, SecondActivity.class);
@@ -58,8 +70,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String story = "";
-                story += "Well for starters I go by, " + etName + "I enjoy playing athletic sports and my favorite one is, ";
-
+                story += "Well for starters I go by, " + etName.getText() + ". I enjoy playing athletic sports and my favorite one is, " + etSport.getText() + ". " ;
+                story += "I have a best friend who also plays sports too their name is, " + etFriend.getText() + ". ";
+                story += "We've been friends since way back and we resonate really well. ";
+                story += "My friend " + etFriend.getText() + "'s birthday is on " + etBirthdate.getText() + ", " + etBirthYear.getText() + ". ";
+                story += "I plan to introduce " + etFriend.getText() + " to, " + etNoun.getText() + ".  ";
+                story += etFriend.getText() + " seemed very excited about it when I told them. ";
+                story += "Anyways back to the topic of athletics while " + etFriend.getText() + "'s " + "attitude is " + etAdjective.getText() + " during games when we play together. I still could say they're a good friend.";
+                story += " Usually after games I know " + etFriend.getText() + " is done with her stretches when " + etPronoun.getText() + " goes, HEY HEY MEAL TIME, " + etName.getText() + " and so I dash to them to where we then have trouble deciding our after practice meals.";
 
 
 
